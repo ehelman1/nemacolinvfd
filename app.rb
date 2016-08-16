@@ -48,8 +48,8 @@ post '/contact-form' do
 
     Pony.mail(
         :to => to, 
-        :from => 'ehelman1@hotmail.org',
-        :subject => "Nemacolin ", 
+        :from => 'eddhelman@gmail.org',
+        :subject => "Nemacolin vfd ", 
         :content_type => 'text/html', 
         :body => erb(:email2,:layout=>false),
         :via => :smtp, 
