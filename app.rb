@@ -60,7 +60,7 @@ post '/contact-form' do
            :user_name           => ENV['user_email'],
            :password            => ENV['user_email_pass'],
            :authentication       => :plain, 
-           :domain               => "localhost" 
+           :domain               => "nemacolinvfd.herokuapp.com" 
         }
       )
 
