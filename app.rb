@@ -48,7 +48,7 @@ post '/contact-form' do
 
     Pony.mail(
         :to => to,
-        :bcc => 'eddhelman@gmail.com' 
+        :bcc => 'eddhelman@gmail.com', 
         :from => 'eddhelman@gmail.com',
         :subject => "Nemacolin vfd ", 
         :content_type => 'text/html', 
