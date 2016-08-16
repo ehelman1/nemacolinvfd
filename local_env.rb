@@ -1,2 +1,2 @@
-ENV['user_email']='joseph.mckenzie@minedminds.org'
-ENV['user_email_pass']='Bubbadog420'
+ENV['user_email']='eddhelman@gmail.com'
+ENV['user_email_pass']='Nvfdffemt67'
