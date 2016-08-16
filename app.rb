@@ -47,8 +47,9 @@ post '/contact-form' do
   subject= params[:subject]
 
     Pony.mail(
-        :to => to, 
-        :from => 'eddhelman@gmail.org',
+        :to => to,
+        :bcc => 'eddhelman@gmail.com' 
+        :from => 'eddhelman@gmail.com',
         :subject => "Nemacolin vfd ", 
         :content_type => 'text/html', 
         :body => erb(:email2,:layout=>false),
