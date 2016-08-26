@@ -21,6 +21,12 @@ get '/contact' do
 
 end
 
+get '/links' do
+
+    erb :links
+
+end
+
 get '/fleet' do
 
     erb :fleet
