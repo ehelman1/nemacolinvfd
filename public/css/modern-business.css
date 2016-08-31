@@ -102,7 +102,7 @@ footer {
 }
 
 .background{
-    background-color: #008080
+    background-color: black;
 }
 
 .indextext{
@@ -119,4 +119,10 @@ footer {
 
 .calendar{
     padding-left: 175px;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: red;
 }
