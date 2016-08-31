@@ -105,6 +105,10 @@ footer {
     background-color: #008080
 }
 
-p{
-    font color: #ffffff !important;
+.indextext{
+    padding-top: 25px; padding-left: 125px;
+}
+
+.indexpic{
+    padding-left: 150px;
 }
