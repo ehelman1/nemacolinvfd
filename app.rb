@@ -45,6 +45,12 @@ get '/events' do
 
 end
 
+get '/members' do
+
+    erb :members
+
+end
+
 post '/contact-form' do
   name = params[:name]
   from = params[:email]
