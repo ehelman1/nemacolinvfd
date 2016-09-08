@@ -116,10 +116,12 @@ footer {
 
 .eventpic{
     padding-left: 100px;
+    padding-bottom: 20px;
 }
 
 .calendar{
     padding-left: 175px;
+    padding-bottom: 20px;
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
