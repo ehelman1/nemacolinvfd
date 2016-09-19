@@ -51,6 +51,12 @@ get '/members' do
 
 end
 
+get '/membership' do
+
+    erb :membership
+
+end
+
 post '/contact-form' do
   name = params[:name]
   from = params[:email]
